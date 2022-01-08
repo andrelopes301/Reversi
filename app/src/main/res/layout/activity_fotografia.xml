@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".atividades.FotografiaActivity">
+
+
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.camera.view.PreviewView>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/AlterarCamara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onAlterarCamara"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp">
+
+        <ImageView
+            android:id="@+id/AlterarCamaraImgID"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/flip">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/AlterarCamaraTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/purple_500"
+            android:text="Alterar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="200dp"
+        android:id="@+id/previewFoto"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp">
+
+
+        <Button
+            android:id="@+id/Btn_tirarFotografia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:scaleType="fitCenter"
+            android:text="@string/takepicture"
+            android:textAllCaps="false"
+            android:layout_marginEnd="10dp"
+            android:paddingVertical="15dp"
+            />
+
+        <Button
+            android:id="@+id/Btn_SubmeterFotografia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:paddingVertical="15dp"
+            android:scaleType="fitCenter"
+            android:text="@string/submitphoto"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:onClick="onSubmeterFotografia"
+            android:enabled="false"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
+

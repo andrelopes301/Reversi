@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.jogo.Score2playersFragment"
+    android:id="@+id/score2playersFragment"
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:layout_marginStart="50dp">
+
+        <ImageView
+            android:id="@+id/imgPerfilJog1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/border"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/avatar">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/nomeJog1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/nomeJog1"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="80dp">
+
+            <ImageView
+                android:id="@+id/pecaJog1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/circ1">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/pontuacaoJog1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/pontuacaoJog1"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="vs"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/pontuacaoJog2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/pontuacaoJog2"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/pecaJog2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/circ2">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:orientation="vertical"
+        android:layout_marginEnd="50dp">
+
+        <ImageView
+            android:id="@+id/imgPerfilJog2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/border"
+            android:padding="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/avatar">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/nomeJog2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/nomeJog2"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#8a5a44</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    
+    <!--Palete 1 - Classico -->
+    <color name="btnClassico">#7f5539</color>
+    <color name="barClassico">#472915</color>
+    <color name="fundoClassico">#CFCBC9</color>
+    <color name="tabuleiroClassico">#9E8468</color>
+    <color name="selecionadoClassico">#fae2ca</color>
+    <color name="textoClassico">#472915</color>
+
+
+    <!--Palete 2 - Oceano -->
+    <color name="btnOceano">#133A49</color>
+    <color name="barOceano">#0C324A</color>
+    <color name="fundoOceano">#C7E6E0</color>
+    <color name="tabuleiroTurquesa">#34a0a4</color>
+    <color name="selecionadoTurquesa">#99CFD1</color>
+    <color name="textoOceano">#0C324A</color>
+
+    <!--Palete 3 - Frio-->
+    <color name="btnFrio">#1E1015</color>
+    <color name="barFrio">#1C0110</color>
+    <color name="fundoFrio">#AEAEAE</color>
+    <color name="tabuleiroRoxoSujo">#301E28</color>
+    <color name="selecionadoRoxoClaro">#6C485C</color>
+    <color name="textoFrio">#1C0110</color>
+
+<!--Peca Troca-->
+    <color name="beje">#fae2ca</color>
+    <color name="selecionado">#FA8072</color>
+
+
+</resources>

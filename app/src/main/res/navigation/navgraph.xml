@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/modoJogo">
+    <fragment
+        android:id="@+id/modoJogo"
+        android:name="pt.isec.kotlin.reversi.fragmentos.ModoJogoFragment"
+        android:label="fragment_modo_jogo"
+        tools:layout="@layout/fragment_modo_jogo" >
+        <action
+            android:id="@+id/action_modoJogoFragment_to_modoComunicacao"
+            app:destination="@id/modoComunicacao" />
+    </fragment>
+    <fragment
+        android:id="@+id/modoComunicacao"
+        android:name="pt.isec.kotlin.reversi.fragmentos.ModoComunicacaoFragment"
+        android:label="modoComunicacao"
+        tools:layout="@layout/fragment_modo_comunicacao">
+        <action
+            android:id="@+id/action_modoComunicacao_to_modoJogoFragment"
+            app:destination="@id/modoJogo" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "555245515983",
+    "project_id": "reversi-g34-amov",
+    "storage_bucket": "reversi-g34-amov.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555245515983:android:e61573c748f9ea8c31f3ba",
+        "android_client_info": {
+          "package_name": "pt.isec.kotlin.reversi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555245515983-rm4irbg8djk8m5ec1en9vecepe39u2ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.isec.kotlin.reversi",
+            "certificate_hash": "907adf5c4d2c780f111b6505df4b4b8496c902aa"
+          }
+        },
+        {
+          "client_id": "555245515983-4043e977rrmj6derqgafa2d2pohumavs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoACxwcq5-dqQ4WgJ2PKBRXP9C13KGhs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555245515983-4043e977rrmj6derqgafa2d2pohumavs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

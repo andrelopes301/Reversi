@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#C5B7B7">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingEnd="1dp"
+            tools:ignore="RtlSymmetry">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/victory"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/vitoriaDerrotaTextView"
+            android:background="#A8E4A6"
+            />
+        </LinearLayout>
+
+        <TextView
+            android:textStyle="normal"
+            android:textSize="25sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/MyPiecesScore"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:id="@+id/MyScoreTextView"
+            android:background="#DCDCDC"
+            />
+        <TextView
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Vs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/vsTextView"
+            android:background="#DCDCDC"
+
+            />
+        <TextView
+            android:textStyle="normal"
+            android:textSize="25sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/AdvsPiecesScore"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:id="@+id/AdvsScoreTextView"
+            android:background="#DCDCDC"
+            />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="1dp"
+        tools:ignore="RtlSymmetry">
+        <TextView
+            android:textStyle="normal"
+            android:textSize="25sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/AdvsNomeScore"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/nomeAdvsTextView"
+            android:background="#DCDCDC"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

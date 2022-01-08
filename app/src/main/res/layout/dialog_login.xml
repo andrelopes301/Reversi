@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:id="@+id/emailEditTextDialog"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="40dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/passwordEditTextDialog"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="20dp">
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="10dp"
+        >
+
+        <Button
+            android:id="@+id/Btn_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:paddingVertical="12dp"
+            android:textAllCaps="false"
+            android:onClick="onCancelar"
+            android:textSize="14sp"
+            android:layout_marginEnd="15dp">
+
+        </Button>
+        <Button
+            android:id="@+id/Btn_iniciarSessao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="12dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:onClick="onIniciarSessao"
+            android:textSize="14sp"
+            >
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>

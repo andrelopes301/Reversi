@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Reversi</string>
+    <string name="pontuacaoJog1">2</string>
+    <string name="pontuacaoJog2">2</string>
+    <string name="pontuacaoJog3">2</string>
+    <string name="nomeJog1">Jugador1</string>
+    <string name="nomeJog2">Jugador2</string>
+    <string name="nomeJog3">Jugador2</string>
+    <string name="new_game">Nuevo Juego</string>
+    <string name="profile">Perfil</string>
+    <string name="scoreboards">Marcador</string>
+    <string name="exit">Salir</string>
+    <string name="back">Volver al Menú</string>
+    <string name="takepicture">Sacar Fotografia</string>
+    <string name="nameplayer">Username</string>
+    <string name="terms">Confirmo y acepto los términos del juego.</string>
+    <string name="submitprofile">Enviar Perfil</string>
+    <string name="resetdata">Reestablecer Campos</string>
+
+    <string name="msg_ip_address">IP del servidor: %s Esperando a un cliente</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+
+
+    <string name="play">Jugada</string>
+    <string name="playwarning">¡No hay jugadas posibles!</string>
+    <string name="endgame">Juego Terminado</string>
+    <string name="tie">Empate!</string>
+    <string name="leave">Salir</string>
+    <string name="newgame">Jugar de nuevo</string>
+
+    <!-- opcoes -->
+    <string name="switch1">Mostrar posibles jugadas</string>
+
+
+    <string name="theme">Temas</string>
+    <string-array name="themes">
+        <item>Classico</item>
+        <item>Oceano</item>
+        <item>Frio</item>
+    </string-array>
+
+    <string name="l">Idioma</string>
+
+    <string-array name="language">
+        <item>Portuguese</item>
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string name="about">"Acerca "</string>
+    <string name="backToMenu">Volver</string>
+
+    <string name="backMSG">Presione de nuevo para salir</string>
+    <string name="bomb">Pieza Bomba</string>
+    <string name="changePiece">Cambiar Piezas</string>
+    <string name="submitphoto">Submeter</string>
+    <string name="changedata">Cambiar Campos</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="registerEmail">Registrar E-mail</string>
+    <string name="loginEmail">Ingressar E-mail</string>
+    <string name="loginGoogle">Autenticar Google</string>
+    <string name="local2Players">2 Jugadores Local</string>
+    <string name="online2players">2 Jugadores Online</string>
+    <string name="online3players">3 Jugadores Online</string>
+    <string name="servermode">Modo de Servidor</string>
+    <string name="clientmode">Modo de Cliente</string>
+    <string name="cancel">Cancelar</string>
+    <string name="login">Iniciar Sessão</string>
+
+    <string name="win1">Ganador: </string>
+    <string name="win2">Ganador: Jugador2</string>
+    <string name="win3">Ganador: Jugador3</string>
+    <string name="win1and2"> e Jugador2</string>
+    <string name="win2and3">Ganador: Jugador2 e Jugador3</string>
+    <string name="win1and3"> e Jugador3</string>
+
+    <!--toast Traduz tu!!!-->
+        <string name="chose2piece">¡Elige la segunda pieza!</string>
+        <string name="advpiece">" Elige la pieza del oponente"</string>
+        <string name="changesucced">¡Tus piezas fueron cambiadas por la elegida!</string>
+        <string name="impossibleposition">¡Ha eligido una posición imposible!</string>
+        <string name="bombneighbors">¡Se han eliminado todas las partes circundantes!</string>
+        <string name="impossiblebomb">¡Imposible lanzar una bomba en esta posición!</string>
+    <string name="opt">Opciones</string>
+    <string name="loginSucess">¡Autenticado con éxito!</string>
+    <string name="email_incorrect">Se ha introducido una dirección de correo electrónico / contraseña incorrecta.</string>
+    <string name="emailrequired">¡Correo electronico (requerido!</string>
+    <string name="passwordrequired">¡Es necesario ingresar una contraseña!</string>
+    <string name="login_sucess">¡Autenticado con éxito!</string>
+    <string name="name_required">¡Es necesario ingresar un nombre!</string>
+    <string name="username_incorrect">¡El nombre de usuario no debe tener más de 15 caracteres!</string>
+    <string name="password_invalid">¡La contraseña debe tener al menos seis caracteres!</string>
+    <string name="select_country">¡Tienes que seleccionar tu país!!</string>
+    <string name="terms_required">¡Confirma los términos!</string>
+    <string name="photoRequired">¡Es necesario tomar una foto!</string>
+    <string name="profileSucess">¡Perfil actualizado con éxito!</string>
+    <string name="email_invalid">¡Debes ingresar una dirección de correo electrónico válida!</string>
+    <string name="bestScores">Mejores Puntuaciones</string>
+    <string name="iniciarSessaoRequired">¡Es necesario iniciar sesión para jugar!</string>
+    <string name="nomeutilizador">username</string>
+    <string name="victory">Victoria</string>
+    <string name="MyPiecesScore">44</string>
+    <string name="AdvsPiecesScore">20</string>
+    <string name="AdvsNomeScore">Player2</string>
+    <string name="defeat">Fracaso</string>
+    <string name="tiee">Empate</string>
+    <string name="previewphoto">Cargando vista previa de la foto ...</string>
+    <string name="permissionsdenied">Permisos no otorgados por la usuario.</string>
+    <string name="chooseBombLocation">¡Elige dónde lanzar la bomba!</string>
+    <string name="bombnotpossible">¡No es posible lanzar la bomba!</string>
+    <string name="choose2pieces">¡Elige dos de tus piezas para cambiarlas por un oponente!</string>
+    <string name="tradeunavailable">¡No es posible intercambiar!</string>
+    <string name="bombpieceactive">¡La pieza bomba  está activa!</string>
+    <string name="tradePieceActive">¡La parte de troca está activa!</string>
+    <string name="ipadress">Dirección IP:</string>
+    <string name="cancel1">Cancelar</string>
+    <string name="connectEmulator">" Conectarse al emulador!"</string>
+    <string name="adressincorrect">" ¡Direccion incorrecta!"</string>
+    <string name="connect">" Conectarse "</string>
+    <string name="noScores">¡No se han guardado puntuaciones!</string>
+</resources>

@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Reversi" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="temaClassico">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/btnClassico</item>
+        <item name="colorPrimaryVariant">@color/barClassico</item>
+        <item name="colorOnPrimary">@color/fundoClassico</item>
+        <item name="android:windowBackground">@color/fundoClassico</item>
+        <item name="android:textColor">@color/textoClassico</item>
+        <item name="colorAccent">@color/btnClassico</item>
+    </style>
+
+
+    <style name="temaOceano">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/btnOceano</item>
+        <item name="colorPrimaryVariant">@color/barOceano</item>
+        <item name="colorOnPrimary">@color/fundoOceano</item>
+        <item name="android:windowBackground">@color/fundoOceano</item>
+        <item name="android:textColor">@color/textoOceano</item>
+        <item name="colorAccent">@color/btnOceano</item>
+    </style>
+
+
+    <style name="temaFrio">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/btnFrio</item>
+        <item name="colorPrimaryVariant">@color/barFrio</item>
+        <item name="colorOnPrimary">@color/fundoFrio</item>
+        <item name="android:windowBackground">@color/fundoFrio</item>
+        <item name="android:textColor">@color/textoFrio</item>
+        <item name="colorAccent">@color/btnFrio</item>
+    </style>
+
+    <style name="Theme.Reversi.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Reversi.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Reversi.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

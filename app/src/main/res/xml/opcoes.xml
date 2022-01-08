@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <SwitchPreference
+        android:key="switchMJP"
+        android:title="@string/switch1"
+        android:defaultValue="true"
+        />
+
+    <ListPreference
+        android:key="temas"
+        android:title="@string/theme"
+        android:entries="@array/themes"
+        android:entryValues="@array/themes"
+        android:defaultValue="Oceano"/>
+
+    <ListPreference
+        android:key="language"
+        android:title="@string/l"
+        android:entries="@array/language"
+        android:entryValues="@array/language"
+        android:defaultValue="Portuguese" />
+
+    <PreferenceScreen
+        android:key="about"
+        android:title="@string/about"
+        >
+        <intent
+            android:targetPackage="pt.isec.kotlin.reversi"
+            android:targetClass="pt.isec.kotlin.reversi.atividades.CredidosActivity"
+        />
+
+    </PreferenceScreen>
+
+
+
+</PreferenceScreen>

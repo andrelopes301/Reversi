@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/visualizarPerfilFragment"
+        tools:context=".fragmentos.perfil.VisualizarPerfilFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/textId_NomeJogador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="8"
+                android:hint="@string/nameplayer"
+                android:inputType="text"
+                android:lines="1"
+                android:textStyle="bold"
+                android:maxLength="20"
+                tools:ignore="Autofill"
+                android:enabled="false">
+            </EditText>
+
+            <EditText
+                android:id="@+id/textId_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="8"
+                android:hint="@string/e_mail"
+                android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:maxLength="50"
+                tools:ignore="Autofill"
+                android:enabled="false">
+            </EditText>
+
+
+            <Spinner
+                android:id="@+id/nacionalidadesSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                >
+            </Spinner>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="60dp"
+            >
+
+            <Button
+                android:id="@+id/Btn_AlterarDados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/changedata"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:textAllCaps="false"
+                android:onClick="onAlterarDados"
+                android:textSize="16sp">
+            </Button>
+            <Button
+                android:id="@+id/Btn_TerminarSessao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="10dp"
+                android:paddingVertical="15dp"
+                android:text="@string/logout"
+                android:textAllCaps="false"
+                android:onClick="onTerminarSessao"
+                android:textSize="16sp"
+                >
+            </Button>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reversi</string>
+    <string name="pontuacaoJog1">2</string>
+    <string name="pontuacaoJog2">2</string>
+    <string name="pontuacaoJog3">2</string>
+    <string name="nomeJog1">Player1</string>
+    <string name="nomeJog2">Player2</string>
+    <string name="nomeJog3">Player3</string>
+    <string name="new_game">New Game</string>
+    <string name="scoreboards">Scoreboard</string>
+    <string name="exit">Exit</string>
+    <string name="profile">Profile</string>
+    <string name="back">Back to Menu</string>
+    <string name="takepicture">Take Picture</string>
+    <string name="nameplayer">Username</string>
+    <string name="terms">I confirm and accept the terms of the game.</string>
+    <string name="submitprofile">Submit Profile</string>
+    <string name="resetdata">Reset Fields</string>
+    <string name="msg_ip_address">Server IP address: %s \nWaiting for a client...</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+
+    <string name="backMSG">Press back again to exit</string>
+    <string name="theme">Themes</string>
+    <string name="bomb">Bomb Piece</string>
+    <string name="changePiece">Change Pieces</string>
+
+
+    <string name="play">Play</string>
+    <string name="playwarning">There are no possible plays!</string>
+    <string name="endgame">Game ended</string>
+    <string name="tie">Tie!</string>
+    <string name="leave">Leave</string>
+    <string name="newgame">Play again</string>
+
+    <!-- opcoes -->
+    <string-array name="themes">
+        <item>Classico</item>
+        <item>Oceano</item>
+        <item>Frio</item>
+    </string-array>
+
+    <string name="switch1">Show possible plays</string>
+
+    <string name="l">Language</string>
+
+    <string-array name="language">
+        <item>Portuguese</item>
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string name="about">About</string>
+    <string name="backToMenu">Go back</string>
+    <string name="submitphoto">Submit</string>
+    <string name="changedata">Change Fields</string>
+    <string name="logout">Logout</string>
+    <string name="registerEmail">Register E-mail</string>
+    <string name="loginEmail">Login E-mail</string>
+    <string name="loginGoogle">Login Google</string>
+    <string name="local2Players">2 Local Players</string>
+    <string name="online2players">2 Online Players</string>
+    <string name="online3players">3 Online Players</string>
+    <string name="servermode">Server Mode</string>
+    <string name="clientmode">Client Mode</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Iniciar Sessão</string>
+
+    <string name="win1">Winner: </string>
+    <string name="win2">Winner: Player2</string>
+    <string name="win3">Winner: Player3</string>
+    <string name="win1and2"> e Player2</string>
+    <string name="win2and3">Winner: Player2 e Player3</string>
+    <string name="win1and3"> e Player3</string>
+
+<!--toast -->
+    <string name="chose2piece">Chose the second piece!</string>
+    <string name="advpiece">Chose the adversary piece!</string>
+    <string name="changesucced">Your pieces were changed by te chosen one!</string>
+    <string name="impossibleposition">You have chosen an impossible position!</string>
+    <string name="bombneighbors">All the neighboring pieces were removed!</string>
+    <string name="impossiblebomb">Impossible bomb positioning!</string>
+    <string name="opt">Options</string>
+    <string name="loginSucess">Login successfully!</string>
+    <string name="email_incorrect">Incorrect email/password entered!</string>
+    <string name="emailrequired">Email Required!</string>
+    <string name="passwordrequired">Password required!</string>
+    <string name="login_sucess">Login successfully!</string>
+    <string name="name_required">Name required!!</string>
+    <string name="username_incorrect">The username must not be longer than 15 characters!</string>
+    <string name="password_invalid">The password must be at least six characters long!</string>
+    <string name="select_country">You have to select your country!</string>
+    <string name="terms_required">Please confirm the terms!</string>
+    <string name="photoRequired">Take photo!</string>
+    <string name="profileSucess">Profile updated successfully!</string>
+
+
+
+    <string-array name="scores_str">
+        <item>Jogo 1</item>
+        <item>Jogo 2</item>
+        <item>Jogo 3</item>
+        <item>Jogo 4</item>
+        <item>Jogo 5</item>
+    </string-array>
+
+
+    <string name="email_invalid">You must enter a valid email address!</string>
+    <string name="bestScores">Best Scores</string>
+    <string name="nomeutilizador">username</string>
+    <string name="victory">Victory</string>
+    <string name="MyPiecesScore">44</string>
+    <string name="AdvsPiecesScore">20</string>
+    <string name="AdvsNomeScore">Player2</string>
+    <string name="defeat">Defeat</string>
+    <string name="tiee">Tie</string>
+    <string name="permissionsdenied">Permissions not granted by the user.</string>
+    <string name="iniciarSessaoRequired">Login is required in order to play!</string>
+
+    <string name="previewphoto">Loading photo preview...</string>
+    <string name="chooseBombLocation">Choose where to drop the bomb!</string>
+    <string name="bombnotpossible">It is still not possible to drop the bomb!</string>
+    <string name="choose2pieces">Choose two of your pieces to exchange with your opponent!</string>
+    <string name="tradeunavailable">It is still not possible to exchange!</string>
+    <string name="bombpieceactive">Part bomb is active!</string>
+    <string name="tradePieceActive">Part exchange is active!</string>
+    <string name="ipadress">IP adress:</string>
+    <string name="connect">Connect</string>
+    <string name="adressincorrect">" Incorrect address!"</string>
+    <string name="connectEmulator">Connect to Emulator</string>
+    <string name="cancel1">Cancel</string>
+    <string name="noScores">No saved scores!</string>
+</resources>

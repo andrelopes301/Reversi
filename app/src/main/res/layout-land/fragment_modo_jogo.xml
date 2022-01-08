@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.ModoJogoFragment"
+    android:id="@+id/modoJogo_Fragment"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/voltarAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="25dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="30dp"
+        android:background="@color/purple_500"
+        >
+
+        <ImageView
+            android:id="@+id/voltarAtrasIMG"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingHorizontal="8dp"
+            android:src="@drawable/ic_seta_anterior"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/voltarAtrasText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingVertical="10dp"
+            android:text="@string/back"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="center|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="200dp"
+        >
+
+
+        <Button
+            android:id="@+id/Btn_modo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="16dp"
+            android:layout_marginVertical="5dp"
+            android:text="@string/local2Players"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/Btn_modo2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="16dp"
+            android:layout_marginVertical="5dp"
+            android:text="@string/online2players"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/Btn_modo3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="16dp"
+            android:layout_marginVertical="5dp"
+            android:text="@string/online3players"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</FrameLayout>

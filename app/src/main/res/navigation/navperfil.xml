@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navperfil"
+    app:startDestination="@id/registarLoginPerfilFragment"
+    >
+    
+    
+    <fragment
+        android:id="@+id/registarLoginPerfilFragment"
+        android:name="pt.isec.kotlin.reversi.fragmentos.perfil.RegistarLoginFragment"
+        android:label="fragment_registar_login"
+        tools:layout="@layout/fragment_registar_login">
+        <action
+            android:id="@+id/action_registarLoginFragment_to_registoPerfilFragment"
+            app:destination="@id/registoPerfilFragment" />
+        <action
+            android:id="@+id/action_registarLoginFragment_to_visualizarPerfilFragment"
+            app:destination="@id/visualizarPerfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registoPerfilFragment"
+        android:name="pt.isec.kotlin.reversi.fragmentos.perfil.RegistoPerfilFragment"
+        android:label="fragment_registo_perfil"
+        tools:layout="@layout/fragment_registo_perfil" >
+        <action
+            android:id="@+id/action_registoPerfilFragment_to_visualizarPerfilFragment"
+            app:destination="@id/visualizarPerfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/visualizarPerfilFragment"
+        android:name="pt.isec.kotlin.reversi.fragmentos.perfil.VisualizarPerfilFragment"
+        android:label="fragment_visualizar_perfil"
+        tools:layout="@layout/fragment_visualizar_perfil" >
+        <action
+            android:id="@+id/action_visualizarPerfilFragment_to_registoPerfilFragment"
+            app:destination="@id/registoPerfilFragment" />
+        <action
+            android:id="@+id/action_visualizarPerfilFragment_to_registarLogin"
+            app:destination="@id/registarLoginPerfilFragment" />
+    </fragment>
+
+
+</navigation>

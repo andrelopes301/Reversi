@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/layout/activity_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/layout/dialog_about.xml" value="0.4" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/layout/dialog_fimjogo.xml" value="0.36666666666666664" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/layout/dialog_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/layout/dialog_noplays.xml" value="0.36666666666666664" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/layout/fragment_tabuleiro8x8.xml" value="0.36666666666666664" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/layout/listview_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/AMOV.2021.2022.2019139754.2019126457.2019126468/Reversi/app/src/main/res/xml/opcoes.xml" value="0.36666666666666664" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout-land/activity_jogo.xml" value="0.176" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout-land/activity_modo_jogo.xml" value="0.3302083333333333" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout-land/fragment_modo_comunicacao.xml" value="0.264" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout-land/fragment_modo_jogo.xml" value="0.3875" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/activity_fotografia.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/activity_jogo.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/activity_modo_jogo.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/activity_perfil.xml" value="0.2" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/activity_scores.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/dialog_fimjogo.xml" value="0.128125" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/dialog_login.xml" value="0.128125" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/dialog_noplays.xml" value="0.128125" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_modo_comunicacao.xml" value="0.2" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_modo_jogo.xml" value="0.128125" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_registar_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_registo_perfil.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_score2players.xml" value="0.4" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_visualizar_perfil.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi-AMOV_TP1/Reversi-AMOV_TP1/app/src/main/res/layout/listview_item.xml" value="0.536" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/drawable/border.xml" value="0.2703125" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/drawable/borderfina.xml" value="0.2703125" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout-land/activity_main.xml" value="0.2" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout-land/activity_modo_jogo.xml" value="0.264" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout-land/activity_perfil.xml" value="0.37373737373737376" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout-land/activity_scores.xml" value="0.264" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout-land/fragment_modo_comunicacao.xml" value="0.4192708333333333" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout-land/fragment_modo_jogo.xml" value="0.4125" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout-land/fragment_score2players.xml" value="0.4234375" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout-land/fragment_score3players.xml" value="0.2" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/activity_modo_jogo.xml" value="0.2520833333333333" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/activity_perfil.xml" value="0.2520833333333333" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/activity_scores.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/dialog_about.xml" value="0.4" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/dialog_fimjogo.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/dialog_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/dialog_noplays.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_modo_comunicacao.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_modo_jogo.xml" value="0.2520833333333333" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_score2players.xml" value="0.2520833333333333" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_score3players.xml" value="0.2520833333333333" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_tabuleiro10x10.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/fragment_tabuleiro8x8.xml" value="0.25416666666666665" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/layout/listview_item.xml" value="0.264" />
+        <entry key="..\:/EI/3Ano/1Sem/AMOV/Reversi/Reversi-AMOV_TP1/app/src/main/res/xml/opcoes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/miner/Desktop/tp_AMov/last/Reversi/Reversi-AMOV_TP1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/miner/Desktop/tp_AMov/last/Reversi/Reversi-AMOV_TP1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19114583333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
