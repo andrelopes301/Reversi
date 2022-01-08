@@ -7,6 +7,8 @@
 - Only for android
 - Made in android studio
 #### Game
+- Stores data in Firebase Database/Storage
+- Allows to register/login profile with google and email 
 - Able to play online against players on the same network.
 - Mode (1 vs 1) - 2 players at the same time
 - Mode (1 vs 1 vs 1) - 3 players at the same time
