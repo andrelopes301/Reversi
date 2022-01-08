@@ -3,7 +3,7 @@
 ## Project made for Arquiteturas Móveis at ISEC 2021/2022 
 
 ### Notes
-- Required to gradle the project or install the apk directly at the mobile.
+- Build gradle to run app or install the 'reversi.apk' directly on your mobile.
 - Only for android
 - Made in android studio
 #### Game
