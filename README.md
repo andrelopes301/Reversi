@@ -1,6 +1,6 @@
 # Reversi - Kotlin/Android
  
-## Project made for Arquiteturas Móveis at ISEC 2021/2022 
+## Project made for 'Arquiteturas Móveis' at ISEC 2021/2022 
 
 ### Notes
 - Build gradle to run app or install the 'reversi.apk' directly on your mobile.
