@@ -8,6 +8,7 @@
 - Made in android studio
 #### Game
 - Stores data in Firebase Database/Storage
+- CameraX incorporated in the app to allow to take photos.
 - Allows to register/login profile with google and email 
 - Able to play online against players on the same network.
 - Mode (1 vs 1) - 2 players at the same time
