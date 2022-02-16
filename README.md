@@ -18,7 +18,7 @@
 - Some bugs in layout sizes
 - Entire project is in portuguese, but the game offers the possibility to play in english/spanish aswell.
 
-#### Layouts of activities
+#### Some layouts of activities
 <p align="center">
 <img src="https://www.linkpicture.com/q/Screenshot_2022-01-08-15-53-17-622_pt.isec.kotlin.reversi.jpg" width="22%" >
 <img src="https://www.linkpicture.com/q/Screenshot_2022-01-08-15-53-26-546_pt.isec.kotlin.reversi.jpg" width="22%" >
