@@ -3,10 +3,6 @@
 
 Reversi is a strategy board game for two players, played on an 8x8 uncheckered board. This Android app is an implementation of the game, built using the Kotlin programming language.
 
-## Project Information
-
-This project was created as part of the 'Arquiteturas Móveis' course at ISEC in 2021/2022.
-
 ## Getting Started
 
 To run the app, you can either:
@@ -30,6 +26,11 @@ Please note that this app is only compatible with Android devices.
 ### Notes
 
 Please note that there may be some bugs in the layout sizes. The entire project is written in Portuguese, but the game offers the possibility to play in English and Spanish as well.
+
+
+## Project Information
+
+This project was created as part of the 'Arquiteturas Móveis' subject at ISEC in 2021/2022.
 
 ## License
 
